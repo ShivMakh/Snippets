@@ -1,0 +1,5 @@
+1. create virual env
+
+cd to folder to wrok in
+
+pip install pipreqs

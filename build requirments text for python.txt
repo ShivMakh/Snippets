@@ -1,0 +1,14 @@
+python -m venv env
+cd env
+Scripts\activate
+pip install pipreqs
+
+cd ..
+
+cd .\[path]\[folder with py]
+cd ..
+pipreqs .\[folder with py]
+
+cd .\[folder with py]\
+pip install -U -r requirements.txt
+python .\program.py
