@@ -1,0 +1,15 @@
+Input TOC in code blocks
+
+#markdown
+<h1 id="tocheading">Table of Contents</h1>
+<div id="toc"></div>
+
+
+
+#allow code blocks to display multiple outputs in single block
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+#codeblock
+%%javascript
+$.getScript('https://kmahelona.github.io/ipython_notebook_goodies/ipython_notebook_toc.js')
